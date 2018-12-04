@@ -1,0 +1,11 @@
+name = input("input your name\n")
+age = input("input your age\n")
+age = int(age)
+print("Welcome " +name +", you are "+str(age)+" years old")
+a,b,c = input("input a\n"),input("input b\n"),input("input c\n")
+vars=[a,b,c]
+vars_t = tuple(vars)
+print(vars)
+print(vars_t)
+print(str.lower(name))
+input("press enter to exit")
